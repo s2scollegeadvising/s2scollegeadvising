@@ -1236,6 +1236,14 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     color: #FFFFFF;
 }
 
+.servicelist {
+    font-family: "montserrat-medium", sans-serif;
+    font-size: 3.2rem;
+    line-height: 1.255;
+    text-align: left;
+    color: #24305e;
+}
+
 .subhead + .display-2 {
     margin-top: .6rem;
 }
