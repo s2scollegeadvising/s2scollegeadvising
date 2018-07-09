@@ -1237,7 +1237,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .servicelist {
-    font-family: "montserrat-medium", sans-serif;
     font-size: 3.2rem;
     line-height: 1.255;
     text-align: left;
