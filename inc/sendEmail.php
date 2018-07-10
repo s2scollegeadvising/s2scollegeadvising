@@ -1,4 +1,5 @@
 ﻿<?php
+
 // Replace this with your own email address
 $siteOwnersEmail = 's2scollegeadvising@gmail.com';
 
@@ -42,6 +43,7 @@ if($_POST) {
     $headers .= "MIME-Version: 1.0\r\n";
     $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
+
     if (!$error) {
 
         ini_set("sendmail_from", $siteOwnersEmail); // for windows server
@@ -49,6 +51,7 @@ if($_POST) {
 
         if ($mail) { echo "OK"; }
         else { echo "Something went wrong. Please try again."; }
+        
     } # end if - no validation error
 
     else {

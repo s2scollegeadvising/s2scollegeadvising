@@ -2959,7 +2959,7 @@ html.no-csstransitions .home-content__main {
     background-color: #151515;
 }
 
-.s-contact .form-field {
+/*.s-contact .form-field {
     position: relative;
 }
 
@@ -2993,7 +2993,7 @@ html.no-csstransitions .home-content__main {
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
     border-right: 5px solid #a8d0e6;
-}
+}*/
 
 .contact__line {
     display: block;
@@ -3089,18 +3089,24 @@ html.no-csstransitions .home-content__main {
 .contact-content textarea.placeholder {
     color: #4f4f4f !important;
 }
+
+
+.contact-secondary {
+    float: left;
+    padding: 0 5rem;
+}
+/*
 .contact-primary, .contact-secondary {
     float: left;
     padding: 0 5rem;
 }
-
 .contact-primary {
     width: 65%;
 }
 
 .contact-primary #contactForm {
     margin-top: -1.5rem;
-}
+}*/
 
 .contact-secondary {
     width: 35%;
@@ -3151,7 +3157,7 @@ html.no-csstransitions .home-content__main {
     margin: 0;
 }
 
-.message-warning, 
+/*.message-warning, 
 .message-success {
     display: none;
     background: #111111;
@@ -3173,12 +3179,12 @@ html.no-csstransitions .home-content__main {
 .message-warning i, .message-success i {
     margin-right: 10px;
     font-size: 1.2rem;
-}
+}*/
 
 
 /* form loader
  * ----------------------------------------------- */
-.submit-loader {
+/*.submit-loader {
     display: none;
     position: relative;
     left: 0;
@@ -3206,12 +3212,12 @@ html.no-csstransitions .home-content__main {
 .oldie .submit-loader .text-loader {
     display: block;
 }
-
+*/
 
 /* --------------------------------------------------------------- 
  * ## loader animation 
  * --------------------------------------------------------------- */
-.s-loader {
+/*.s-loader {
     margin: 1.2rem auto 3rem;
     width: 70px;
     text-align: center;
@@ -3265,7 +3271,7 @@ html.no-csstransitions .home-content__main {
         -ms-transform: scale(1);
         transform: scale(1);
     }
-}
+}*/
 
 
 /* ------------------------------------------------------------------- 
@@ -3286,10 +3292,10 @@ html.no-csstransitions .home-content__main {
         float: none;
         width: 100%;
     }
-    .contact-primary #contactForm {
+/*    .contact-primary #contactForm {
         margin-top: -1.5rem;
         margin-bottom: 7.2rem;
-    }
+    }*/
     .contact-secondary .hide-on-fullwidth {
         display: none;
     }
