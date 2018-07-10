@@ -2959,7 +2959,7 @@ html.no-csstransitions .home-content__main {
     background-color: #151515;
 }
 
-/*.s-contact .form-field {
+.s-contact .form-field {
     position: relative;
 }
 
@@ -2993,7 +2993,7 @@ html.no-csstransitions .home-content__main {
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
     border-right: 5px solid #a8d0e6;
-}*/
+}
 
 .contact__line {
     display: block;
@@ -3288,7 +3288,7 @@ html.no-csstransitions .home-content__main {
     .contact-content {
         max-width: 700px;
     }
-    .contact-primary, .contact-secondary {
+    .contact-secondary {
         float: none;
         width: 100%;
     }
@@ -3326,13 +3326,13 @@ html.no-csstransitions .home-content__main {
         padding-bottom: 12rem;
         text-align: center;
     }
-    .contact-primary, .contact-secondary {
+    .contact-secondary {
         padding: 0 20px;
     }
 }
 
 @media only screen and (max-width: 400px) {
-    .contact-primary, .contact-secondary {
+    .contact-secondary {
         padding: 0 5px;
     }
 }
