@@ -2940,7 +2940,6 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .s-contact {
     background-color: #151515;
-    background-image: url("../images/contact-bg.jpg");
     background-repeat: no-repeat;
     background-position: center, center;
     padding-top: 15rem;
@@ -3092,7 +3091,7 @@ html.no-csstransitions .home-content__main {
 
 
 .contact-secondary {
-    float: left;
+    float: center;
     padding: 0 5rem;
 }
 /*
@@ -3109,13 +3108,13 @@ html.no-csstransitions .home-content__main {
 }*/
 
 .contact-secondary {
-    width: 35%;
+    width: 100%;
 }
 
 .contact-secondary::before {
     content: "";
     display: block;
-    width: 35%;
+    width: 100%;
     position: absolute;
     top: 0;
     bottom: 0;
